@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    echo "Home";
+Route::get('/', function() {
+    echo "Principal";
 });
 Route::get('/sobre-nos', function () {
     echo "Sobre-nos";
