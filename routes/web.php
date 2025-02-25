@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [\App\Http\Contollers\PrincipalController::class,'principal']);
+Route::get('/', [\App\Http\Controllers\PrincipalController::class,'principal']);
 
 Route::get('/sobre-nos', [\App\Htpp\Controllers\SobreNosController::class,'sobreNos']);
 
